@@ -1,0 +1,187 @@
+<html>
+
+<head>
+    <title>patient list</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class='container'>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Hosital</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        
+                    </ul>
+                    <form class="d-flex">
+                        <div><a href="#"><i class="fab fa-whatsapp"></i>&nbspContactUs</a></div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="../img/3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                  <img src="../img/10.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                  <img src="../img/img1.jpg" class="d-block w-100" alt="...">
+              </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+        <h3>Patient Experience</h3>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Age</th>
+                <th scope="col">From</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row" ><a href="#1"><img src="../img/p1.jpg" class="img1"></a></th>
+                <td>xyz</td>
+                <td>79</td>
+                <td>Delhi</td>
+              </tr>
+              <tr>
+                <th scope="row"><a href="#2"><img src="../img/patient.jpg" class="img1"></a></th>
+                <td>Merry</td>
+                <td>69</td>
+                <td>Pune</td>
+              </tr>
+              <tr>
+                <th scope="row"><a href="#3"><img src="../img/p2.jpg" class="img1"></a></th>
+                <td>lucy</td>
+                <td>32</td>
+                <td>Nagpur</td>
+              </tr>
+              <tr>
+                <th scope="row"><a href="#4"><img src="../img/p3.jpg" class="img1"></a></th>
+                <td>Mark</td>
+                <td>65</td>
+                <td>Pune</td>
+              </tr>
+              <tr>
+                <th scope="row"><a href="#5"><img src="../img/p4.jpg" class="img1"></a></th>
+                <td>Jacob</td>
+                <td>66</td>
+                <td>Mumbai</td>
+              </tr>
+              
+            </tbody>
+          </table>
+          <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="jumbotron jumbotron-fluid" id="1">
+    <div class="container">
+      <h1 class="display-6">Mr.XYZ</h1>
+      <div class="row">
+        <div class="col-4"><img src="../img/p1.jpg"class="img2"></div>
+        <div class="col">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum culpa enim eaque tempore officia repellat laboriosam aut officiis est. Consequatur nemo obcaecati accusantium non itaque, ex et nisi ducimus dolor vero facere praesentium explicabo soluta libero suscipit illum tempore voluptatibus expedita ut voluptate. Excepturi cupiditate quis eaque perspiciatis dolores magnam totam, repellendus, velit consequuntur atque qui? Praesentium ipsam dolores officiis quaerat quo? Aliquid, maxime reprehenderit at distinctio totam, molestiae deserunt commodi adipisci aliquam, molestias alias iste dolor animi consequatur omnis ut quisquam obcaecati. Animi iure odio quas aspernatur vitae quasi dicta, cumque consequuntur ut soluta maxime nihil nulla dolorum et quia beatae natus. Eligendi doloribus, molestiae nobis deserunt facilis vero! Nobis nostrum error officia perferendis perspiciatis necessitatibus autem dolore voluptas laudantium quod delectus facilis, non, deleniti repudiandae quidem a eligendi, repellendus eius? Doloribus quisquam tenetur est ipsum nobis sit officia, adipisci cupiditate asperiores iste in repellat voluptate. Dicta nesciunt culpa aperiam neque dolores tempore quisquam corrupti aut atque saepe nostrum molestias odit, natus minima. Ut accusamus iure quaerat facere eos laboriosam commodi, dolore iste magni sequi molestiae minus laudantium harum, possimus sint alias. Aliquam, inventore repellendus aspernatur illum natus autem quis expedita atque enim numquam sunt voluptatum quidem nemo, in officiis minima adipisci nihil non excepturi dolor eligendi dolores, incidunt possimus? Nihil beatae voluptatem modi a, id assumenda, nobis voluptas alias iusto illum quidem error, similique minima consectetur quam perferendis facere? Nobis ratione at deserunt natus aliquam impedit nam saepe harum sint? Fugiat facere alias nihil ea rerum </div>
+    </div>
+    </div>
+  </div>
+  <div class="jumbotron jumbotron-fluid" id="2">
+    <div class="container">
+      <h1 class="display-6">Mrs.Merry</h1>
+      <div class="row">
+        <div class="col-4"><img src="../img/patient.jpg" class="img2"></div>
+        <div class="col">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum culpa enim eaque tempore officia repellat laboriosam aut officiis est. Consequatur nemo obcaecati accusantium non itaque, ex et nisi ducimus dolor vero facere praesentium explicabo soluta libero suscipit illum tempore voluptatibus expedita ut voluptate. Excepturi cupiditate quis eaque perspiciatis dolores magnam totam, repellendus, velit consequuntur atque qui? Praesentium ipsam dolores officiis quaerat quo? Aliquid, maxime reprehenderit at distinctio totam, molestiae deserunt commodi adipisci aliquam, molestias alias iste dolor animi consequatur omnis ut quisquam obcaecati. Animi iure odio quas aspernatur vitae quasi dicta, cumque consequuntur ut soluta maxime nihil nulla dolorum et quia beatae natus. Eligendi doloribus, molestiae nobis deserunt facilis vero! Nobis nostrum error officia perferendis perspiciatis necessitatibus autem dolore voluptas laudantium quod delectus facilis, non, deleniti repudiandae quidem a eligendi, repellendus eius? Doloribus quisquam tenetur est ipsum nobis sit officia, adipisci cupiditate asperiores iste in repellat voluptate. Dicta nesciunt culpa aperiam neque dolores tempore quisquam corrupti aut atque saepe nostrum molestias odit, natus minima. Ut accusamus iure quaerat facere eos laboriosam commodi, dolore iste magni sequi molestiae minus laudantium harum, possimus sint alias. Aliquam, inventore repellendus aspernatur illum natus autem quis expedita atque enim numquam sunt voluptatum quidem nemo, in officiis minima adipisci nihil non excepturi dolor eligendi dolores, incidunt possimus? Nihil beatae voluptatem modi a, id assumenda, nobis voluptas alias iusto illum quidem error, similique minima consectetur quam perferendis facere? Nobis ratione at deserunt natus aliquam impedit nam saepe harum sint? Fugiat facere alias nihil ea rerum </div>
+    </div>
+    </div>
+  </div>
+  <div class="jumbotron jumbotron-fluid" id="3">
+    <div class="container">
+      <h1 class="display-6">Mrs.Lucy</h1>
+      <div class="row">
+        <div class="col-4"><img src="../img/p2.jpg" class="img2"></div>
+        <div class="col">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum culpa enim eaque tempore officia repellat laboriosam aut officiis est. Consequatur nemo obcaecati accusantium non itaque, ex et nisi ducimus dolor vero facere praesentium explicabo soluta libero suscipit illum tempore voluptatibus expedita ut voluptate. Excepturi cupiditate quis eaque perspiciatis dolores magnam totam, repellendus, velit consequuntur atque qui? Praesentium ipsam dolores officiis quaerat quo? Aliquid, maxime reprehenderit at distinctio totam, molestiae deserunt commodi adipisci aliquam, molestias alias iste dolor animi consequatur omnis ut quisquam obcaecati. Animi iure odio quas aspernatur vitae quasi dicta, cumque consequuntur ut soluta maxime nihil nulla dolorum et quia beatae natus. Eligendi doloribus, molestiae nobis deserunt facilis vero! Nobis nostrum error officia perferendis perspiciatis necessitatibus autem dolore voluptas laudantium quod delectus facilis, non, deleniti repudiandae quidem a eligendi, repellendus eius? Doloribus quisquam tenetur est ipsum nobis sit officia, adipisci cupiditate asperiores iste in repellat voluptate. Dicta nesciunt culpa aperiam neque dolores tempore quisquam corrupti aut atque saepe nostrum molestias odit, natus minima. Ut accusamus iure quaerat facere eos laboriosam commodi, dolore iste magni sequi molestiae minus laudantium harum, possimus sint alias. Aliquam, inventore repellendus aspernatur illum natus autem quis expedita atque enim numquam sunt voluptatum quidem nemo, in officiis minima adipisci nihil non excepturi dolor eligendi dolores, incidunt possimus? Nihil beatae voluptatem modi a, id assumenda, nobis voluptas alias iusto illum quidem error, similique minima consectetur quam perferendis facere? Nobis ratione at deserunt natus aliquam impedit nam saepe harum sint? Fugiat facere alias nihil ea rerum </div>
+    </div>
+    </div>
+  </div>
+  <div class="jumbotron jumbotron-fluid" id="4">
+    <div class="container">
+      <h1 class="display-6">Mr.Mark</h1>
+      <div class="row">
+        <div class="col-4"><img src="../img/p3.jpg" class="img2"></div>
+        <div class="col">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum culpa enim eaque tempore officia repellat laboriosam aut officiis est. Consequatur nemo obcaecati accusantium non itaque, ex et nisi ducimus dolor vero facere praesentium explicabo soluta libero suscipit illum tempore voluptatibus expedita ut voluptate. Excepturi cupiditate quis eaque perspiciatis dolores magnam totam, repellendus, velit consequuntur atque qui? Praesentium ipsam dolores officiis quaerat quo? Aliquid, maxime reprehenderit at distinctio totam, molestiae deserunt commodi adipisci aliquam, molestias alias iste dolor animi consequatur omnis ut quisquam obcaecati. Animi iure odio quas aspernatur vitae quasi dicta, cumque consequuntur ut soluta maxime nihil nulla dolorum et quia beatae natus. Eligendi doloribus, molestiae nobis deserunt facilis vero! Nobis nostrum error officia perferendis perspiciatis necessitatibus autem dolore voluptas laudantium quod delectus facilis, non, deleniti repudiandae quidem a eligendi, repellendus eius? Doloribus quisquam tenetur est ipsum nobis sit officia, adipisci cupiditate asperiores iste in repellat voluptate. Dicta nesciunt culpa aperiam neque dolores tempore quisquam corrupti aut atque saepe nostrum molestias odit, natus minima. Ut accusamus iure quaerat facere eos laboriosam commodi, dolore iste magni sequi molestiae minus laudantium harum, possimus sint alias. Aliquam, inventore repellendus aspernatur illum natus autem quis expedita atque enim numquam sunt voluptatum quidem nemo, in officiis minima adipisci nihil non excepturi dolor eligendi dolores, incidunt possimus? Nihil beatae voluptatem modi a, id assumenda, nobis voluptas alias iusto illum quidem error, similique minima consectetur quam perferendis facere? Nobis ratione at deserunt natus aliquam impedit nam saepe harum sint? Fugiat facere alias nihil ea rerum </div>
+    </div>
+    </div>
+  </div>
+  <div class="jumbotron jumbotron-fluid" id="5">
+    <div class="container">
+      <h1 class="display-6">Mr.Jacob</h1>
+      <div class="row">
+        <div class="col-4"><img src="../img/p4.jpg" class="img2"></div>
+        <div class="col">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum culpa enim eaque tempore officia repellat laboriosam aut officiis est. Consequatur nemo obcaecati accusantium non itaque, ex et nisi ducimus dolor vero facere praesentium explicabo soluta libero suscipit illum tempore voluptatibus expedita ut voluptate. Excepturi cupiditate quis eaque perspiciatis dolores magnam totam, repellendus, velit consequuntur atque qui? Praesentium ipsam dolores officiis quaerat quo? Aliquid, maxime reprehenderit at distinctio totam, molestiae deserunt commodi adipisci aliquam, molestias alias iste dolor animi consequatur omnis ut quisquam obcaecati. Animi iure odio quas aspernatur vitae quasi dicta, cumque consequuntur ut soluta maxime nihil nulla dolorum et quia beatae natus. Eligendi doloribus, molestiae nobis deserunt facilis vero! Nobis nostrum error officia perferendis perspiciatis necessitatibus autem dolore voluptas laudantium quod delectus facilis, non, deleniti repudiandae quidem a eligendi, repellendus eius? Doloribus quisquam tenetur est ipsum nobis sit officia, adipisci cupiditate asperiores iste in repellat voluptate. Dicta nesciunt culpa aperiam neque dolores tempore quisquam corrupti aut atque saepe nostrum molestias odit, natus minima. Ut accusamus iure quaerat facere eos laboriosam commodi, dolore iste magni sequi molestiae minus laudantium harum, possimus sint alias. Aliquam, inventore repellendus aspernatur illum natus autem quis expedita atque enim numquam sunt voluptatum quidem nemo, in officiis minima adipisci nihil non excepturi dolor eligendi dolores, incidunt possimus? Nihil beatae voluptatem modi a, id assumenda, nobis voluptas alias iusto illum quidem error, similique minima consectetur quam perferendis facere? Nobis ratione at deserunt natus aliquam impedit nam saepe harum sint? Fugiat facere alias nihil ea rerum </div>
+    </div>
+    </div>
+  </div>
+  <div class="row">
+    <footer class="footer">
+        <h6> ©copyright by Suraj Mohite</h6>
+    </footer>
+</div>
+    </div>
+</body>
+
+</html>
